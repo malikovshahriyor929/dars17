@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar_top">There's a newer version of bootstrap</div>
+      <nav class="nav_background">
+        <div class="container">
+          <nav class="navbar">
+            <nav class="logo">
+              <img src="./svg/logo.svg" alt="logo" />
+              <input id="check" type="checkbox" />
+              <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Blog</a></li>
+                <label class="close" for="check"
+                  ><i class="fa-solid fa-xmark"></i
+                ></label>
+              </ul>
+            </nav>
+            <nav class="navbar_btn_links">
+              <img src="./svg/github.svg" alt="github" />
+              <img src="./svg/twitter.svg" alt="twitter" />
+              <img src="./svg/bootstrap.svg" alt="" />
+              <button>Download</button>
+              <label class="bars" for="check"
+                ><i class="fa-solid fa-bars"></i
+              ></label>
+            </nav>
+          </nav>
+        </div>
+      </nav>
+      <nav class="navbar3">
+        <div class="container">
+          <nav class="navbar2">
+            <div class="input">
+              <form action="">
+                <input placeholder="Search docs..." type="search" />
+              </form>
+              <button>Ctrl + /</button>
+            </div>
+            <nav class="v5btn">
+              <button>v5.0 <i class="fa-solid fa-sort-down"></i></button>
+            </nav>
+          </nav>
+        </div>
+      </nav>
+    </header>
+    <section class="showcase">
+      <div class="container">
+        <div class="grid_stiky">
+          <div class="first_stiky">
+            <h3><i class="fa-solid fa-angle-right"></i> Getting started</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Customize</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Layout</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Content</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Forms</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Components</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Helpers</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Utilities</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> Extend</h3>
+            <h3><i class="fa-solid fa-angle-right"></i> About</h3>
+            <hr />
+            <p>Migration</p>
+          </div>
+          <div class="grid_stiky2">
+            <div class="showcase">
+              <div class="showcase_txt">
+                <h1>Introduction</h1>
+                <button>View on github</button>
+              </div>
+              <div class="showcase_txt2">
+                <p>
+                  Get started with Bootstrap, the world’s most popular framework
+                  for building <br />
+                  responsive, mobile-first sites, with jsDelivr and a template
+                  starter page.
+                </p>
+              </div>
+              <div class="showcase_img">
+                <img
+                  src="https://srv.carbonads.net/static/30242/d2ce9d569f5af686a03dfbebb343f38eb801fe67"
+                  alt="ads via Carbon"
+                  height="100"
+                  width="130"
+                  data-no-statview="no"
+                  style="max-width: 130px"
+                />
+                <p>
+                  Your new development <br />
+                  career awaits. Check out <br />
+                  the latest listings. <br />
+                  <br />
+                  ads via Carbon
+                </p>
+              </div>
+              <div class="all">
+                <h3>Quick start</h3>
+                <p>
+                  Looking to quickly add Bootstrap to your project? Use
+                  jsDelivr, a free open source CDN. Using a package manager
+                  <br />
+                  or need to download the source files?
+                </p>
+                <h4>Head to the downloads page.</h4>
+              </div>
+              <div class="all">
+                <h3>CSS</h3>
+                <p>
+                  Copy-paste the stylesheet
+                  <span class="pink"> link </span> into your
+                  <span class="pink"> head </span> before all other stylesheets
+                  to load our CSS.
+                </p>
+              </div>
+              <div class="code-background">
+                <div>
+                  &lt;link
+                  href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot;
+                  rel=&quot;stylesheet&quot;
+                  integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot;
+                  crossorigin=&quot;anonymous&quot;&gt;
+                </div>
+              </div>
+              <div class="all">
+                <h3>JS</h3>
+                <p class="inline">
+                  Many of our components require the use of JavaScript to
+                  function. Specifically, they require our own JavaScript
+                  plugins an <span class="blue">Popper</span>. Place
+                  <span class="bold">one of the following</span>
+                  <span class="pink"> scripts </span>near the end of your pages,
+                  right before the closing <span class="pink">body </span> tag,
+                  to enable them.
+                </p>
+              </div>
+              <div class="all">
+                <h3>Bundle</h3>
+                <p>
+                  Include every Bootstrap JavaScript plugin and dependency with
+                  one of our two bundles. Both
+                  <span class="pink">bootstrap.bundle.js</span> and
+                  <span class="pink"> bootstrap.bundle.min.js</span>Include
+                  <span class="blue">Popper</span>
+                  for our tooltips and popovers. For more information about
+                  what’s included in Bootstrap, please see our
+                  <span class="blue">contents</span> section.
+                </p>
+              </div>
+              <div class="code-background">
+                <div>
+                  &lt;link
+                  href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot;
+                  rel=&quot;stylesheet&quot;
+                  integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot;
+                  crossorigin=&quot;anonymous&quot;&gt;
+                </div>
+              </div>
+              <div class="all">
+                <h3>Separate</h3>
+                <p>
+                  If you decide to go with the separate scripts solution, Popper
+                  must come first (if you’re using tooltips or popovers), and
+                  then our JavaScript plugins.
+                </p>
+              </div>
+              <div class="code-background">
+                <div>
+                  &lt;link
+                  href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot;
+                  rel=&quot;stylesheet&quot;
+                  integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot;
+                  crossorigin=&quot;anonymous&quot;&gt;
+                </div>
+              </div>
+              <div class="all">
+                <h3>Modules</h3>
+                <p>
+                  If you use <span class="pink"> script type="module"</span>,
+                  please refer to our
+                  <span class="blue"> using Bootstrap as a module</span>
+                  section.
+                </p>
+              </div>
+              <div class="all">
+                <h3>Components</h3>
+                <p>
+                  Curious which components explicitly require our JavaScript and
+                  Popper? Click the show components link below. If you’re at all
+                  unsure about the general page structure, keep reading for an
+                  example page template.
+                </p>
+              </div>
+              <p class="blue lik">
+                <i class="fa-solid fa-play"></i> Show components requiring
+                JavaScript
+              </p>
+              <div class="all">
+                <h3>Starter template</h3>
+                <p>
+                  Be sure to have your pages set up with the latest design and
+                  development standards. That means using an HTML5 doctype and
+                  including a viewport meta tag for proper responsive behaviors.
+                  Put it all together and your pages should look like this:
+                </p>
+              </div>
+              <div class="code_background1">
+                <div class="padd">
+                  !doctype html html <br />lang="en" head - <br />Required meta
+                  tags -- <br />
+                  meta charset="utf-8" <br />meta name="viewport"
+                  content="width=device-width, initial-scale=1"> -- Bootstrap
+                  <br />
+                  CSS -- link
+
+                  <br />href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+                  rel="stylesheet"
+                  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                  crossorigin="anonymous"> title>Hello, world! title head> body
+                  h1Hello, world!/h1 !-- Optional JavaScript; choose one of the
+                  two! -- !-- Option 1: Bootstrap Bundle with Popper -- script
+                  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                  crossorigin="anonymous"/scrip !-- Option 2: Separate Popper
+                  and Bootstrap JS -- !-- script
+                  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                </div>
+              </div>
+              <div class="all">
+                <p>
+                  For next steps, visit the
+                  <span class="blue">Layout docs</span> or
+                  <span class="blue">our official examples</span> to start
+                  laying out your site’s content and components.
+                </p>
+              </div>
+              <div class="all">
+                <h3>Important globals</h3>
+                <p>
+                  Bootstrap employs a handful of important global styles and
+                  settings that you’ll need to be aware of when using it, all of
+                  which are almost exclusively geared towards the normalization
+                  of cross browser styles. Let’s dive in.
+                </p>
+              </div>
+              <div class="all">
+                <h3>HTML5 doctype</h3>
+                <p>
+                  Bootstrap requires the use of the HTML5 doctype. Without it,
+                  you’ll see some funky incomplete styling, but including it
+                  shouldn’t cause any considerable hiccups.
+                </p>
+              </div>
+              <div class="code-background">
+                <div>
+                  &lt;link
+                  href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot;
+                  rel=&quot;stylesheet&quot;
+                  integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot;
+                  crossorigin=&quot;anonymous&quot;&gt;
+                </div>
+              </div>
+              <div class="all">
+                <h3>Responsive meta tag</h3>
+                <p>
+                  Bootstrap is developed mobile first, a strategy in which we
+                  optimize code for mobile devices first and then scale up
+                  components as necessary using CSS media queries. To ensure
+                  proper rendering and touch zooming for all devices,
+                  <span class="bold">add the responsive viewport meta tag </span
+                  >to your <span class="pink">head</span>
+                </p>
+              </div>
+              <div class="code-background">
+                <div>
+                  &lt;link
+                  href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot;
+                  rel=&quot;stylesheet&quot;
+                  integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot;
+                  crossorigin=&quot;anonymous&quot;&gt;
+                </div>
+              </div>
+              <div class="all">
+                <h3>Box-sizing</h3>
+                <p>
+                  For more straightforward sizing in CSS, we switch the global
+                  <span class="pink"> box-sizing </span>value from
+                  <span class="pink">content-box to border-box.</span> This
+                  ensures <span class="pink">padding</span> does not affect the
+                  final computed width of an element, but it can cause problems
+                  with some third-party software like Google Maps and Google
+                  Custom Search Engine. <br /><br />
+                  On the rare occasion you need to override it, use something
+                  like the following:
+                </p>
+              </div>
+              <div style="margin: 20px 0" class="code-background">
+                .selector-for-some-widget { <br />
+                box-sizing: content-box; }
+              </div>
+              <div class="all">
+                <p>
+                  With the above snippet, nested elements—including generated
+                  content via
+                  <span class="pink">::before and ::after</span>—will all
+                  inherit the specified <span class="pink">box-sizing</span> for
+                  that .
+                  <span class="pink">selector-for-some-widget.</span>
+
+                  Learn more about
+                  <span class="blue">box model and sizing at CSS Tricks</span>.
+                </p>
+              </div>
+              <div class="all">
+                <h3>Reboot</h3>
+                <p>
+                  For improved cross-browser rendering, we use
+                  <span class="blue"> Reboot</span> to correct inconsistencies
+                  across browsers and devices while providing slightly more
+                  opinionated resets to common HTML elements.
+                </p>
+              </div>
+              <div class="all">
+                <h3>Community</h3>
+                <p>
+                  Stay up to date on the development of Bootstrap and reach out
+                  to the community with these helpful resources. <br /><br />
+                </p>
+
+                <ul>
+                  <li>
+                    Read and subscribe to
+                    <span class="blue">The Official Bootstrap Blog.</span>
+                  </li>
+
+                  <li>
+                    Chat with fellow Bootstrappers in IRC. On the
+                    <span class="pink">irc.libera.chat</span> server, in the
+                    #bootstrap channel.
+                  </li>
+
+                  <li>
+                    Implementation help may be found at Stack Overflow (tagged
+                    <span class="blue">bootstrap-5</span> ).
+                  </li>
+                  <li>
+                    Developers should use the keyword
+                    <span class="pink">bootstrap</span> on packages that modify
+                    or add to the functionality of Bootstrap when distributing
+                    through <span class="blue">npm </span>or similar delivery
+                    mechanisms for maximum discoverability.
+                  </li>
+                </ul>
+
+                <br />
+                <p>
+                  You can also follow
+                  <span class="blue">@getbootstrap on Twitter </span>for the
+                  latest gossip and awesome music videos.
+                </p>
+              </div>
+            </div>
+            <div class="second_stiky">
+              <a href="#">On this page</a>
+              <hr />
+              <a href="#">Quick Start</a>
+              <a href="#">CSS</a>
+              <a href="#">JS</a>
+              <a href="#">Bunble</a>
+              <a href="#">Separate</a>
+              <a href="#">Modules </a>
+
+              <a href="#"> Components</a>
+              <a href="#">Starter template</a>
+
+              <a href="#">Important globals</a>
+
+              <a href="#">HTML5 doctype</a>
+
+              <a href="#">Responsive meta tag</a>
+
+              <a href="#"> Box-sizing</a>
+
+              <a href="#">Reboot</a>
+
+              <a href="#">Community</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_background">
+      <div class="container">
+        <div class="pad">
+          <div class="logotar">
+            <a href="https://getbootstrap.com">
+              <img src="./svg/logo2.svg" alt="" />Bootstrap
+            </a>
+            <p>
+              Designed and built with all the love in the world <br /><br>
+              by the Bootstrap team with the help of our <br />
+              contributors.
+              <br /><br>
+              Code licensed MIT, docs CC BY 3.0.
+              <br /><br>
+              Currently v5.0.2.
+              <br> <br> Analytics by Fathom.
+            </p>
+          </div>
+          <div class="flex">
+            <h4>links</h4>
+            <a href="#">Home</a>
+            <a href="#">Docs</a>
+            <a href="#">Examples </a>
+
+            <a href="#">Themes</a>
+
+            <a href="#"> Blog</a>
+            <a href="#">Swag Store</a>
+          </div>
+          <div class="flex">
+            <h4>Guides</h4>
+            <a href="#">Getting started </a>
+            <a href="#">Starter template</a>
+            <a href="#"> Webpack </a>
+
+            <a href="#"> Parcel</a>
+          </div>
+          <div class="flex">
+            <h4>Projects</h4>
+            <a href="#">Bootstrap 5 </a>
+            <a href="#">Bootstrap 4</a>
+            <a href="#">Icons</a>
+            <a href="#">RFS</a>
+            <a href="#">npm starter</a>
+          </div>
+          <div class="flex">
+            <h4>Community</h4>
+            <a href="#">Issues</a>
+            <a href="#">Discussions</a>
+            <a href="#">Corporate sponsors </a>
+            <a href="#">Open Collective</a>
+            <a href="#">Stack Overflow</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
